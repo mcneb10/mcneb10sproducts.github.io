@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+body {
+	background-color: yellow;
+}
+h1 {
+	color: blue;
+}
+h6#r {
+	color: #ff8080;
+	font-size:xx-small;
+}
+h1#d {
+	color: navy;
+}
+h6#a {
+	color:maroon;			
+}

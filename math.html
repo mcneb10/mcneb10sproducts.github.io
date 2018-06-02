@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" type="image/png" href="icon.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Calculator</title>
+</head>
+<body>
+<button id="m">Divide</button>
+<script src="scripts/main.js" type="text/javascript">
+var multiply = document.querySelector('m');
+multiply.onclick = function() {
+	var x = prompt('Enter A Number');
+	var y = prompt('Enter another number');
+	multiply(x,y);
+}
+</script>
+</body>
+
+</html>
